@@ -1,0 +1,1 @@
+export { Display, Heading, Text, Eyebrow, Caption } from "./typography";

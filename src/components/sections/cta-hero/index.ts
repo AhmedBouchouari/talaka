@@ -1,0 +1,1 @@
+export { CtaHero } from "./CtaHero";

@@ -1,0 +1,11 @@
+export { Hero, type HeroProps } from "./Hero";
+export { HeroBackground } from "./HeroBackground";
+export { HeroHeader, type HeroNavItem } from "./HeroHeader";
+export { HeroContent } from "./HeroContent";
+export { HeroButtons, type HeroCta } from "./HeroButtons";
+export { HeroVisual } from "./HeroVisual";
+export { HeroBadgeClients, type ClientAvatar } from "./HeroBadgeClients";
+export { HeroBadgeTestimonial } from "./HeroBadgeTestimonial";
+export { HeroMarquee } from "./HeroMarquee";
+export { HeroSideToolbar } from "./HeroSideToolbar";
+export * from "./variants";

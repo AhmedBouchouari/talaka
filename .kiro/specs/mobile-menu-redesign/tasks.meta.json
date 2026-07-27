@@ -1,0 +1,161 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Implement the new self-contained `MobileNav` component": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152019216
+      },
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152031515
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152622630
+      }
+    ],
+    "2.1 Render `NavItem` entries inside the drawer": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152019890
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152629599
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152697438
+      }
+    ],
+    "3.1 Implement `AppStoreButton` and render both store buttons": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152020419
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152630055
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152697806
+      }
+    ],
+    "4.1 Implement `BottomActionBar` (inline in `MobileNav`)": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152021167
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152630250
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152699620
+      }
+    ],
+    "5.1 Wire ARIA attributes and focus trap": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152023581
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152630586
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152700274
+      }
+    ],
+    "6.1 Refactor `HeroHeader.tsx` to pass props instead of children": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152024197
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152720310
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152896857
+      }
+    ],
+    "7. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "a6cbf190-f883-419a-8c95-6a17b52bb1b3",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152025045
+      },
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152904408
+      }
+    ],
+    "1. Rewrite `MobileNav` component with vaul drawer": [
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152623029
+      }
+    ],
+    "2. Implement navigation links section": [
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152698336
+      }
+    ],
+    "3. Implement app store buttons section": [
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152699221
+      }
+    ],
+    "4. Implement bottom action bar": [
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152700510
+      }
+    ],
+    "5. Implement accessibility and ARIA attributes": [
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152700891
+      }
+    ],
+    "6. Update `HeroHeader` to use new self-contained `MobileNav`": [
+      {
+        "executionId": "b3b71bfd-9edf-461e-bde7-5c1e6e6abe7b",
+        "chatSessionId": "sess_87f4b8f3-f511-49b4-9830-66f16eee10d1",
+        "timestamp": 1785152897437
+      }
+    ]
+  }
+}
