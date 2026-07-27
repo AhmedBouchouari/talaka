@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { heroFadeUp } from "./variants";
@@ -27,17 +28,16 @@ export function HeroBadgeTestimonial({
         className,
       )}
     >
-      <img
+      <Image
         src={portraitSrc}
         alt={portraitAlt}
         width={48}
         height={48}
-        loading="lazy"
         className="h-12 w-12 shrink-0 rounded-[10px] object-cover"
       />
       <div className="min-w-0 flex-1">
         <p className="text-[13px] font-bold leading-snug text-[#1B1B1F]">
-          “{quote}”
+          &ldquo;{quote}&rdquo;
         </p>
         <p className="mt-2 text-[10px] font-semibold uppercase tracking-wider text-[#6B7280]">
           — {author}

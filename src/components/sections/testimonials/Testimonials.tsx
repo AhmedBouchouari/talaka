@@ -115,7 +115,7 @@ function TestimonialCard({ testimonial, index }: { testimonial: Testimonial; ind
 
 export function Testimonials() {
   return (
-    <section className="bg-[#F9F9FA] py-[120px]">
+    <section id="testimonials" className="bg-[#F9F9FA] py-[120px]">
       <div className="mx-auto w-full max-w-[1280px] px-6">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">

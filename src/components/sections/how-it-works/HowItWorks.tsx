@@ -39,6 +39,7 @@ const cardHover =
 export function HowItWorks() {
   return (
     <section
+      id="how-it-works"
       aria-label="How it works"
       className="bg-white py-[100px]"
     >

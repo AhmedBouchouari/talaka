@@ -158,6 +158,7 @@ function PlanCard({ plan }: { plan: Plan }) {
 export function PlansOverview() {
   return (
     <section
+      id="pricing"
       aria-label="Plans overview"
       className="bg-white px-6 py-24 md:px-12 lg:py-32"
     >

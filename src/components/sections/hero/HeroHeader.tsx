@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { ChevronDown, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { Container } from "@/components/layout";
 import { MobileNav } from "@/components/navigation/mobile-nav";
 import { heroFadeUp } from "./variants";
@@ -20,11 +20,10 @@ type HeroHeaderProps = {
 };
 
 const defaultItems: HeroNavItem[] = [
-  { label: "Home", href: "#", hasDropdown: true },
-  { label: "Services", href: "#", hasDropdown: true },
-  { label: "Pricing", href: "#" },
-  { label: "Pages", href: "#", hasDropdown: true },
-  { label: "Contacts", href: "#" },
+  { label: "Features", href: "#features" },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "Testimonials", href: "#testimonials" },
+  { label: "Pricing", href: "#pricing" },
 ];
 
 export function HeroHeader({
@@ -67,9 +66,6 @@ export function HeroHeader({
                   className="inline-flex items-center gap-1 text-[15px] font-semibold text-white/80 transition-colors hover:text-white"
                 >
                   {item.label}
-                  {item.hasDropdown && (
-                    <ChevronDown className="h-3 w-3" aria-hidden />
-                  )}
                 </a>
               </li>
             ))}

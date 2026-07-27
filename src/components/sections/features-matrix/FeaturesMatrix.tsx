@@ -54,7 +54,7 @@ function FeatureCard({ feature }: { feature: Feature }) {
 
 export function FeaturesMatrix() {
   return (
-    <section className="bg-white py-[100px]">
+    <section id="features" className="bg-white py-[100px]">
       <div className="mx-auto w-full max-w-[1280px] px-6">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">

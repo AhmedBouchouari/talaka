@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { heroFadeUp } from "./variants";
@@ -41,12 +42,13 @@ export function HeroVisual({
         variants={heroFadeUp}
         className="relative mx-auto aspect-[9/13] w-full max-w-[420px] overflow-hidden rounded-[36px] border border-white/10 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.6)]"
       >
-        <img
+        <Image
           src={imageSrc}
           alt={imageAlt}
-          width={720}
-          height={1024}
-          className="h-full w-full object-cover"
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, 420px"
+          className="object-cover"
         />
       </motion.div>
 
@@ -68,7 +70,7 @@ export function HeroVisual({
           <span
             className="text-white/85"
             style={{
-              fontFamily: "'Caveat', 'Segoe Script', cursive",
+              fontFamily: "var(--font-caveat), 'Segoe Script', cursive",
               fontSize: "18px",
               lineHeight: 1.2,
             }}

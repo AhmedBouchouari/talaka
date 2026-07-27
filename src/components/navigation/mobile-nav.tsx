@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Drawer } from "vaul";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { HeroNavItem } from "@/components/sections/hero/HeroHeader";
 
@@ -33,11 +33,10 @@ const GooglePlayIcon = () => (
 // ─── Default data ─────────────────────────────────────────────────────────────
 
 const DEFAULT_NAV_ITEMS: HeroNavItem[] = [
-  { label: "Home",     href: "#", hasDropdown: true  },
-  { label: "Services", href: "#", hasDropdown: true  },
-  { label: "Pricing",  href: "#"                     },
-  { label: "Pages",    href: "#", hasDropdown: true  },
-  { label: "Contacts", href: "#"                     },
+  { label: "Features",     href: "#features"     },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "Testimonials", href: "#testimonials" },
+  { label: "Pricing",      href: "#pricing"      },
 ];
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
@@ -117,12 +116,10 @@ export function MobileNav({
                     <li key={item.label}>
                       <a
                         href={item.href}
+                        onClick={() => setOpen(false)}
                         className="inline-flex items-center text-2xl font-bold text-slate-900"
                       >
                         {item.label}
-                        {item.hasDropdown && (
-                          <ChevronDown className="w-4 h-4 ml-2" aria-hidden />
-                        )}
                       </a>
                     </li>
                   ))}
